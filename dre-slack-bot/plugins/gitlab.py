@@ -4,7 +4,7 @@ import re
 import gitlab as gl
 import logging as logger
 
-git = gl.Gitlab(private_token='glpat-oVydRTFobzctxDLq51bQ')
+
 
 
 class GitlabPlugin(MachineBasePlugin):
