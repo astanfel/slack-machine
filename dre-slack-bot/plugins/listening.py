@@ -33,9 +33,9 @@ class ListeningPlugin(MachineBasePlugin):
         ts = event["item"]["ts"]
         await self.react(channel, ts, emoji)
 
-    @schedule(hour="9-17", minute="*/30")
-    async def movement_reminder(self):
-        await self.say("general", "<!here> maybe now is a good time to take a short walk!")
+    # @schedule(hour="9-17", minute="*/30")
+    # async def movement_reminder(self):
+    #     await self.say("general", "<!here> maybe now is a good time to take a short walk!")
 
     @on("bathroom_used")
     async def call_cleaning_department(self, **kwargs):
