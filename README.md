@@ -100,6 +100,7 @@ It is **strongly recommended** that you install `slack-machine` inside a
     ```
 
 7. Start the bot with `slack-machine-async`
+   1. NOTE: This doesn't work, use `slack-machine` instead
 8. ...
 9. Profit!
 

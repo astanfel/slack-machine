@@ -107,6 +107,8 @@ ENV/
 
 # IntelliJ
 /out/
+*iml
+*idea
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
